@@ -1,12 +1,10 @@
 
 import { useState, useEffect } from "react";
 import axios from "axios";
-import ProductDetail from '../pages/ProductDetail';
-import NewProduct from "../components/NewProduct";
-import { Link, useParams } from "react-router-dom";
+
+import { Link } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import Navbar from '../components/Navbar';
 
 
 
